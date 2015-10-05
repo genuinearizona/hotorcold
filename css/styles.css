@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+p {
+  margin-top:6px;
+  margin-bottom:6px;
+  text-align:center;
+  font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color:rgb(4, 50, 39);
+}
+body {
+  background-color:rgb(255, 204, 136);
+}
+h1, h3 {
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:20px;
+  color:black;
+}
+h1 {
+  font-size:52px;
+  font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color:rgb(4, 50, 39);
+}
+h3 {
+  font-size:20px;
+  margin-top:50px;
+  font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color:rgb(4, 50, 39);
+}
+#gameBox {
+  border:1px solid rgb(4, 50, 39);
+  width:190px;
+  margin:50px auto 0 auto; /*tricky*/
+  text-align:center;
+  height:130px;
+  padding-bottom:15px;
+  background-color:rgb(244, 163, 46);
+  border-radius:6px;
+}
+#guess {
+  display:block;
+  margin: 0 auto;
+}
+#guess:hover{
+  box-shadow: 0px 0px 5px #fff;
+}
+#hint {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size:14px;
+  color:rgb(4, 50, 39);
+}
+#submit {
+  display:block;
+  margin:0 auto;
+  margin-top:10px;
+  margin-bottom:6px;
+  width:75px;
+  height:30px;
+}
+
+.button {
+  width:75px;
+  height:30px;
+  margin-top:20px;
+  margin-left:925px;
+  margin-right:6px;
+  border-radius:7px;
+  background-color:rgb(9, 113, 104);
+  color:white;
+}
+.button:hover{
+  -webkit-box-shadow: 0px 0px 3px 5px #f2e1f2;
+  -moz-box-shadow: 0px 0px 3px 5px #f2e1f2;
+  box-shadow: 0px 0px 3px 5px #f2e1f2; 
+}
+#newGame {
+  text-align:center;
+}
