@@ -32,7 +32,7 @@ $(document).ready(function () {
     			$("#hint").text("Congrats! " + numberOfGuesses + " guesses!");
                 $("body").css({'background-image':'url(fire-wallpaper.jpg)'});
                 $("h1, h3").css({'color':'white'});
-                $("h3").text("You guessed the number! Press the New Game button to try again!");
+                $("h3").text("You guessed the number! Press the Replay button to try again!");
     		}
             else if (guess === answer && numberOfGuesses===1) {
                 $("#hint").text("Congrats! " + numberOfGuesses + " guess!");
